@@ -17,25 +17,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1607/7c/7cda8b6782dabd80b4.img.jpg_200x200_2039e660.jpg',
-        title: '上海迪士尼乐园',
-        desc: '上海迪士尼乐园上海迪士尼乐园'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1607/7c/7cda8b6782dabd80b4.img.jpg_200x200_2039e660.jpg',
-        title: '上海迪士尼乐园',
-        desc: '上海迪士尼乐园上海迪士尼乐园'
-      }, {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1607/7c/7cda8b6782dabd80b4.img.jpg_200x200_2039e660.jpg',
-        title: '上海迪士尼乐园',
-        desc: '上海迪士尼乐园上海迪士尼乐园'
-      }]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>
